@@ -5,7 +5,7 @@
  */
 package com.roshan.mavenspring.controller;
 
-import com.roshan.mavenspring.model.Order;
+
 import com.roshan.mavenspring.model.Product;
 import com.roshan.mavenspring.model.UserDetail;
 import com.roshan.mavenspring.service.CategoryService;
@@ -35,8 +35,7 @@ public class MiscellaneousController {
     @Autowired
     CategoryService categoryService;
     
-    @Autowired
-    OrderService orderService;
+   
     
     @Autowired
     UserService userService;
@@ -66,13 +65,13 @@ public class MiscellaneousController {
         
 //        Product product = productService.getProductById(prodId);
 //        UserDetail userDetail = userService.getUserByid(prodId);
-        Order order = new Order();
+ //       Order order = new Order();
         
-        order.setQuantity(quantity);
+ //       order.setQuantity(quantity);
 //        order.setProduct(product);
 //        order.setUserDetail(userDetail);
 //        
-        orderService.saveOrder(order);
+ //       orderService.saveOrder(order);
         mv.setViewName("redirect:/shop");
     return mv;
             }
