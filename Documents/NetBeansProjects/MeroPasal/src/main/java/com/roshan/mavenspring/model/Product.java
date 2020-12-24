@@ -52,8 +52,7 @@ public class Product implements Serializable {
     @JoinColumn(name="cat_id", nullable=false)
     private Category category; 
     
-    @OneToMany(mappedBy="product")
-    private List<Order> order;
+    
 
     public Product() {
     }
