@@ -66,8 +66,6 @@ public class UserDetail implements Serializable {
     @OneToOne(fetch=FetchType.LAZY, cascade=CascadeType.ALL, mappedBy="userDetail")
     private UserRole userRole;
     
-    @OneToMany(mappedBy="userDetails")
-    private List<Order> order;
 
     public UserDetail() {
     }
