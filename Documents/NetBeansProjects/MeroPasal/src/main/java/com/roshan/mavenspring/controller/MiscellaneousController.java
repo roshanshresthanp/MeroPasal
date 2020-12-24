@@ -9,7 +9,6 @@ package com.roshan.mavenspring.controller;
 import com.roshan.mavenspring.model.Product;
 import com.roshan.mavenspring.model.UserDetail;
 import com.roshan.mavenspring.service.CategoryService;
-import com.roshan.mavenspring.service.OrderService;
 import com.roshan.mavenspring.service.ProductService;
 import com.roshan.mavenspring.service.UserService;
 import java.security.Principal;
